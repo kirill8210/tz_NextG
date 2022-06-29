@@ -1,0 +1,564 @@
+@media screen and (max-width: 1199px) {
+
+    .offer_title {
+        font-size: 65px;
+    }
+
+    .left .about_title {
+        padding: 10px 0 10px 44px;
+    }
+
+    .right .about_title {
+        padding: 10px 44px 10px 0;
+    }
+
+    .about_title {
+        font-size: 35px;
+    }
+
+    .about_description {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .about_description p:first-child {
+        padding-bottom: 5px;
+    }
+
+    .advantage{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .info_block_img{
+        width: 100%;
+        height: 550px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .info_block_img img{
+        position: absolute;
+        margin: auto;
+        min-height: 100%;
+        min-width: 100%;
+        left: -100%;
+        right: -100%;
+        top: -100%;
+        bottom: -100%;
+    }
+
+    .info_block {
+        width: 100%;
+        height: 550px;
+    }
+
+    .info_text {
+        flex: 1 0;
+    }
+
+    .info_contact {
+        width: 100%;
+        height: 284px;
+    }
+
+    .info_text div {
+        padding: 60px 30px 0 30px;
+    }
+
+    .info_img_description{
+        padding: 45px 30px 65px 30px;
+    }
+
+    .info_btn {
+        margin-right: 20px;
+    }
+
+    .info_phone img {
+        margin: 0 13px 0 20px;
+    }
+
+    .info_phone_a a {
+        font-size: 20px;
+    }
+
+    .reasons_img img {
+        height: 515px;
+    }
+
+    .reasons_title {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+    .reasons_block {
+        padding-left: 35px;
+    }
+
+    .reasons_description{
+        font-size: 15px;
+        line-height: 22px;
+        padding-bottom: 20px;
+    }
+
+    .reasons_skills {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 15px;
+    }
+
+    .skills{
+        width: 275px;
+    }
+
+    .skills_img img{
+        width: 45px;
+    }
+
+    .skills_title {
+        font-size: 18px;
+         line-height: 20px;
+    }
+
+    .reviews {
+        width: 300px;
+        padding: 35px 15px 15px 20px;
+    }
+
+    .store_link h2 {
+        font-size: 35px;
+        padding-bottom: 15px;
+    }
+
+    .store_link p {
+        font-size: 16px;
+        padding: 0 25px 25px;
+    }
+
+    .contacts_block:first-child:after {
+        right: -80px;
+    }
+
+    .contacts_block:last-child:after {
+        left: -80px;
+    }
+}
+
+@media screen and (max-width: 991.98px) { /*md*/
+
+    .offer_title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .offer_text {
+        width: 350px;
+    }
+
+    .offer_name {
+        margin-top: 80px;
+    }
+
+    .offer_img{
+        height: 600px;
+    }
+
+    .offer_img img {
+        height: 515px;
+        margin: 50px 0 0;
+    }
+
+    .advantage {
+        padding: 40px 0 25px;
+    }
+
+    #about{
+        padding-top: 270px;
+    }
+
+    .about_block {
+        flex-direction: column;
+    }
+
+    .about_block > div {
+         width: 100%;
+    }
+
+    .about_block_img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about_block img {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .left .about_title {
+        padding: 10px 0 10px 0;
+    }
+
+    .left .about_description {
+        padding-left: 0;
+    }
+
+    .about_block {
+        padding-bottom: 40px;
+    }
+
+    .right .about_title {
+        padding: 10px 0 10px 0;
+    }
+
+    .right .about_description {
+        padding: 0 0 25px 0;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+
+    .info > div {
+        width: 520px;
+        margin: 0 auto;
+    }
+
+    .info_img{
+        justify-content: center;
+        margin-bottom: 25px!important;
+    }
+
+    .info_img_description {
+         width: 260px;
+    }
+
+    .info_text div:last-child {
+        border-radius: 0;
+    }
+
+    #certification {
+        padding-bottom: 40px;
+        padding-top: 354px;
+    }
+
+    .certification_img {
+        gap: 40px;
+        margin-left: 35px;
+    }
+
+    .reasons{
+        flex-direction: column;
+    }
+
+    .reasons_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .reasons_block {
+        padding-left: 0;
+    }
+
+    .reasons_title {
+        padding: 25px 0 10px;
+    }
+
+    .reasons_description {
+        padding-bottom: 40px;
+    }
+
+    #reasons {
+        padding-bottom: 40px;
+    }
+
+    .reviews_block {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .store_link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    .contacts {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .contacts_block:first-child:after {
+        left: 0;
+        top: 70px;
+        width: 52px;
+        height: 1px;
+    }
+
+    .contacts_block:last-child:after {
+        left: 0;
+        top: -20px;
+        width: 52px;
+        height: 1px;
+    }
+
+    /*menu*/
+    .icon-menu{
+        display: flex;
+    }
+
+    .menu_block {
+        flex-direction: column;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 320px;
+        height: 100%;
+        z-index: 20;
+        background-color: var(--color-dark);
+        transition: left 0.5s ease-in-out;
+    }
+
+    .menu{
+        flex-direction: column;
+        align-items: start;
+        gap: 25px;
+        padding-left: 30px;
+        margin-right: 0;
+    }
+
+    .icon-close {
+        display: flex;
+        width: 100%;
+        height: 80px;
+        padding: 16px 0;
+        justify-content: end;
+    }
+
+    .icon-close img{
+        margin-right: 10px;
+    }
+
+    .menu li a {
+        color: var(--color-white);
+    }
+
+    .menu .active a {
+        color: var(--color-white);
+        -webkit-text-stroke: 0.5px #ffffff;
+    }
+
+    .btn_contacts_us {
+        margin: 20px 30px;
+    }
+
+}
+
+@media screen and (max-width: 767.98px) {
+
+    #header {
+        background-position: bottom;
+    }
+
+    .offer{
+        flex-direction: column;
+    }
+
+    .offer_text {
+        width: auto;
+    }
+
+    .offer_title{
+        width: 350px;
+    }
+
+    .offer_img{
+        justify-content: center;
+        align-items: end;
+    }
+
+    .offer_img img{
+        margin: 0;
+    }
+
+    .advantage {
+        justify-content: center;
+    }
+
+    .advantage_name {
+        font-size: 18px;
+    }
+
+    .about_block{
+        gap: 40px;
+    }
+
+    .right .about_description {
+        padding: 0;
+    }
+
+    .skills{
+        width: 250px;
+    }
+
+    .footer{
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .footer_logo_name {
+        margin-bottom: 20px;
+    }
+
+    .footer_menu_title {
+        padding-top: 20px;
+    }
+
+    .footer_menu_block {
+        padding-bottom: 20px;
+    }
+
+    .footer_follow {
+        padding-bottom: 20px;
+    }
+
+    .certification{
+        flex-direction: column;
+    }
+
+    .certification_title {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+
+    .certification_img {
+        margin-left: 0;
+        flex-direction: column;
+    }
+
+    .certification_title:after {
+        width: 146px;
+        top: 39px;
+    }
+
+    .store_link p {
+        width: auto;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+    .offer_text {
+        z-index: 5;
+    }
+
+    .offer_title {
+        width: auto;
+    }
+
+    .offer_name{
+        margin-top: 40px;
+    }
+
+    .offer_img {
+        align-items: center;
+        margin-top: -80px;
+        padding-top: 40px;
+    }
+
+    .offer_img img {
+        height: 415px;
+        margin: 0;
+    }
+
+    .offer_description {
+        margin-bottom: 30px;
+    }
+
+    .advantage{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reasons_img img {
+        height: 415px;
+    }
+
+    .reasons_skills{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about_block img {
+        width: 80%;
+    }
+
+    .info > div {
+        width: 290px;
+    }
+
+    .info_block {
+        height: auto;
+    }
+
+    .info_block_img{
+        height: 290px;
+    }
+
+    .info_img{
+        margin-bottom: 0!important;
+    }
+
+    .info_img_description{
+        position: relative;
+        padding: 30px 15px 30px 15px;
+    }
+
+    .info_text{
+        flex-direction: column;
+    }
+
+    .info_text div {
+        padding: 30px 15px 30px 15px;
+    }
+
+    .info_img_description {
+        width: 100%;
+    }
+
+    .info_contact{
+        height: auto;
+        padding: 30px 15px 30px 15px;
+    }
+
+    .info_btn{
+        margin: 0 0 40px 0;
+    }
+
+    .info_btn_phone{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .info_phone::after {
+        top: -20px;
+        left: 50%;
+        margin-left: -23px;
+        width: 46px;
+        height: 1px;
+    }
+
+    .info_phone img {
+        margin: 0 13px 0 0;
+    }
+
+    .store_link h2 {
+        text-align: center;
+    }
+
+    .footer_logo_info {
+         width: 290px;
+    }
+
+}
+
+
